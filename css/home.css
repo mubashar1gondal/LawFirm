@@ -6,3 +6,31 @@ body{
 .back{
     width: 100%;
 }
+.btn-secondary{
+    color:white;
+    background-color: lightgrey;
+    border: none;
+    margin-right: 70px;
+}
+.serif{
+    font-family: serif;
+    
+}
+h2.b {line-height: 150%}
+h2.a {line-height: 0%}
+
+hr.spacer{
+    border-top: 3px solid black;
+    padding: 0px 0px;
+    margin: 10px;
+}
+li.left{
+  border-left:solid lightgrey;
+  padding-left: 15px;
+}
+ul{
+    margin: 10px 5px 5px 10px;
+}
+li.under{
+    text-decoration: underline;
+}
