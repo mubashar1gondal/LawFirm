@@ -1,0 +1,33 @@
+body{
+    background: 
+        url("../images/nza_background.jpg");
+}
+
+
+.col-md-8{
+    background-color: grey;
+    background-clip: content-box;
+    height:100%;
+}
+
+.page {
+    width: 90%;
+    height:100vh;
+    background-color: white;
+}
+
+
+.list{
+    background: url("images/nav_side.jpg");
+}
+
+.four-images{
+     object-fit: contain;
+     width: auto;
+}
+
+.col-6{
+         object-fit: contain;
+        
+
+}
