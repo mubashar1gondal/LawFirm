@@ -2,8 +2,6 @@ body{
     background: 
         url("../images/nza_background.jpg");
 }
-
-
 .col-md-8{
     background-color: grey;
     background-clip: content-box;
@@ -12,11 +10,9 @@ body{
 
 .page {
     width: 90%;
-    height:100vh;
+    height: 100%;
     background-color: white;
 }
-
-
 .list{
     background: url("images/nav_side.jpg");
 }
@@ -27,7 +23,80 @@ body{
 }
 
 .col-6{
-         object-fit: contain;
-        
+         object-fit: contain;      
+}
+.btn-secondary{
+    color:white;
+    background-color: lightgrey;
+    border: none;
+    margin-right: 70px;
+}
+.serif{
+    font-family: serif;
+    
+}
+h2.b {line-height: 150%}
+h2.a {line-height: 0%}
 
+hr.spacer{
+    border-top: 2px solid black;
+    padding: 0px 0px;
+    margin: 10px;
+}
+li.left{
+  border-left:solid lightgrey;
+  padding-left: 15px;
+}
+ul.f1{
+    margin: 10px 5px 5px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+main {
+    margin-top: 30px;
+}
+
+#redbar{
+    height:auto%;
+    background:url("../images/nav_side_sub.jpg");
+    overflow-x:hidden;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: -5px;
+
+}
+p.what{
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: -7px;
+    margin-right: 10px;
+}
+hr.w2{
+    border-top: 2px solid white;
+    margin: 10px;
+    margin-left: 15px;
+}
+ul.S1{
+    color: white;
+    margin-left: 15px;
+    font-size: 13px;
+}
+li.s2{
+    padding-left: 10px;
+}
+ul.S4{
+    color: white;
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+img.s3{
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 50px;
 }

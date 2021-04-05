@@ -1,12 +1,3 @@
-body{
-    background: 
-        url("../images/nza_background.jpg");
-}
-
-header {
-    margin-bottom: 30px;
-}
-
 .back{
     width: 100%;
 }
@@ -38,9 +29,15 @@ ul.f1{
     text-align: center;
 }
 
+body{
+    background:url("../images/nza_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 .col-md-8{
     background-color: white;
     height:100%;
+    background-size: cover;
 }
 
 .page {
@@ -49,46 +46,38 @@ ul.f1{
     background-color: white;
 }
 
-
-
-#woods {
-    height:auto;
-    object-fit: contain;
+main{
+    margin-top: 30px;
 }
 
-
-#woods img{
-    object-fit: contain;
-}
-
-#scroll {
-    max-height: 360px;
-    height:auto%;
-    background:url("../images/nav_side_sub.jpg");
-    overflow: scroll;
-    overflow-x:hidden;
-    width: 100%;
-
-}
-
-.vertical-scrollable {
-    color: white;
+h4{
     font-weight: 100;
 }
 
+.contact{
+    padding: 20px;
+    background-image:url(../images/nav_side_sub.jpg);
+    color:white;
+    font-weight: 100;
+    background-size: cover;
+    margin-left: 10px;
+}
 hr.white {
      display: block; height: 1px;
-    border: 0; border-top: 1px solid #ccc;
+    border: 0; border-top: 3px solid white;
     margin: 1em 0; padding: 0; 
 }
 
-.container {
-    margin-top: 20px;
-    margin-bottom: 30px;
+.where {
+    height:425px;
+    background-image:url("../images/other_links_background.jpg");
+    padding: 20px;
+    background-size: cover;
+    margin-right: 10px;
 }
 
-hr.black {
-
+p{
+    font-size: 14px;
 }
 
 footer{
